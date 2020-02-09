@@ -12,6 +12,7 @@
 #include"flag.h"
 #include"switch.h"
 #include "DigitalPin.h"
+
 #define kp 10
 #define ki 0
 #define kd 0
@@ -55,12 +56,20 @@ void loop() {
     // Serial.println("停止");
     // MOVE(0,0);
     // delay(500);
-    //flagの更新とflagごとのイベント
-    flag = FlagEvent(flag);
+    auto timerSignalOut = DigitalPin(pin_timerSignalOut, OUTPUT);
+    auto timerSignalIn = DigitalPin(pin_timerSignalIn, INPUT);
+    delay(50);
+    timerSignalOut.write(HIGH);
+    delay(50);
+    while (true) {
 
-    //flagの値によって光らせるLEDを変える
-    FlagLight(flag);
+        //flagの更新とflagごとのイベント
+        flag = FlagEvent(flag, &timerSignalIn);
 
-    //ON/OFFライントレース
-    Pline(sensor);//*/
+        //flagの値によって光らせるLEDを変える
+        FlagLight(flag);
+
+        //ON/OFFライントレース
+        Pline(sensor);//*/
+    }
 }

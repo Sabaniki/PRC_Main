@@ -23,6 +23,9 @@ const int pin_motorR1 = 11;
 const int pin_RX = 51;
 const int pin_TX = 53;
 
+
+const int pin_timerSignalIn = 5;
+const int pin_timerSignalOut = 6;
 //LED
 //19(Reset pin)
 const int LED[7] = {26, 30, 34, 38, 42, 47, 50};

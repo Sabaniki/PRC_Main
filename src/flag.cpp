@@ -7,7 +7,7 @@
 #include<Arduino.h>
 #include"str.h"
 
-int FlagEvent(int flag) {
+int FlagEvent(int flag, DigitalPin *timerSignalIn) {
     if ((someBlack() >= 6) && (flag == 0)) {//スタート地点通過
         MOVE(0, 0);
         delay(500);
@@ -25,7 +25,7 @@ int FlagEvent(int flag) {
         // if(!Serial){
         Serial.begin(9600);
         // }
-        while (1) {
+        while (true) {
             //通信
             if (Serial.available() > 0) {
                 str = Serial.readStringUntil('\n');
@@ -97,8 +97,9 @@ int FlagEvent(int flag) {
     }
     else if ((someBlack() >= 6) && (flag == 6)) {//A'地点
         event4();
-        MOVE(0, 0);
-        delay(500);
+        while (!timerSignalIn->read()) {    // 信号が来るまで時間を潰す
+            MOVE(0, 0);
+        }
         return 7;
     }
 

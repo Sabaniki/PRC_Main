@@ -2,20 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="PRC_Main" targetName="DEBUG" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOAD" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD_VERBOSE" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOAD" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPDATE_ALL" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_DEVICE_LIST" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD" />
-      <config projectName="PRC_Main" targetName="PRC_Main" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_MONITOR" />
       <config projectName="PRC_Main" targetName="PLATFORMIO" />
+      <config projectName="PRC_Main" targetName="PRC_Main" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_CLEAN" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOADFS" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
+      <config projectName="PRC_Main" targetName="DEBUG" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_PROGRAM" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_MONITOR" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -24,23 +24,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/platformio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platformio.iml" afterDir="false" />
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="タイマー機能を実装">
+      <change afterPath="$PROJECT_DIR$/.idea/CodicPluginSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/PRC_Main.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/PRC_Main.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flag.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sensor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/str.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/str.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pin.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/pin.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +85,12 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="CodicPlugin" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -212,8 +203,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
-      <workItem from="1581239032758" duration="62000" />
+      <workItem from="1581239032758" duration="850000" />
+      <workItem from="1581239962361" duration="1218000" />
     </task>
+    <task id="LOCAL-00001" summary="add DigitalPin.cpp, DigitalPin.h">
+      <created>1581239141479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581239141479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +226,37 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add DigitalPin.cpp, DigitalPin.h" />
+    <MESSAGE value="タイマー機能を実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="タイマー機能を実装" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="775" y="1253" key="#com.intellij.ide.util.MemberChooser" timestamp="1581240685091">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="775" y="1253" key="#com.intellij.ide.util.MemberChooser/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240685091" />
+    <state x="514" y="1130" key="CommitChangelistDialog2" timestamp="1581241157124">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="514" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241157124" />
+    <state x="470" y="1169" key="SettingsEditor" timestamp="1581240096035">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="470" y="1169" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240096035" />
+    <state x="569" y="1270" key="Vcs.Push.Dialog.v2" timestamp="1581241186201">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="569" y="1270" key="Vcs.Push.Dialog.v2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241186201" />
+    <state x="629" y="1362" key="com.intellij.ide.util.TipDialog" timestamp="1581239968984">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="629" y="1362" key="com.intellij.ide.util.TipDialog/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581239968984" />
+    <state x="634" y="1276" width="670" height="676" key="search.everywhere.popup" timestamp="1581240208683">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="634" y="1276" width="670" height="676" key="search.everywhere.popup/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240208683" />
   </component>
   <component name="masterDetails">
     <states>
