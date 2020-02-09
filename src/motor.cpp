@@ -26,10 +26,12 @@ void MOVE(int MspL, int MspR) {
         MspL *= -1;
         analogWrite(pin_motorL1, LOW);
         analogWrite(pin_motorL2, MspL);
-    } else if (MspL > 0) {
+    }
+    else if (MspL > 0) {
         analogWrite(pin_motorL1, MspL);
         analogWrite(pin_motorL2, LOW);
-    } else if (MspL == 0) {
+    }
+    else if (MspL == 0) {
         analogWrite(pin_motorL1, LOW);
         analogWrite(pin_motorL2, LOW);
     }
@@ -38,10 +40,12 @@ void MOVE(int MspL, int MspR) {
         MspR *= -1;
         analogWrite(pin_motorR1, LOW);
         analogWrite(pin_motorR2, MspR);
-    } else if (MspR > 0) {
+    }
+    else if (MspR > 0) {
         analogWrite(pin_motorR1, MspR);
         analogWrite(pin_motorR2, LOW);
-    } else if (MspR == 0) {
+    }
+    else if (MspR == 0) {
         analogWrite(pin_motorR1, LOW);
         analogWrite(pin_motorR2, LOW);
     }

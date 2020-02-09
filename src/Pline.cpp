@@ -12,16 +12,19 @@
 void GO(int way) {
     if (way == r) {
         MOVE(120, 0);
-    } else if (way == l) {
+    }
+    else if (way == l) {
         MOVE(0, 120);
-    } else if (way == f) {
+    }
+    else if (way == f) {
         MOVE(120, 120);
-    } else if (way == s) {
+    }
+    else if (way == s) {
         MOVE(0, 0);
     }
 }
 
-void Pline(int Sensors[9]) {
+void Pline(const int (&Sensors)[9]) {
     bool lineResult[9];
     int linePower[9];
     int blackSum = 0;

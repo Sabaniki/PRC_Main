@@ -1,114 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOAD" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_UPDATE_ALL" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_MONITOR" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_CLEAN" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOADFS" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_PROGRAM" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_DEVICE_LIST" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD_VERBOSE" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
+      <config projectName="PRC_Main" targetName="DEBUG" />
       <config projectName="PRC_Main" targetName="PLATFORMIO" />
       <config projectName="PRC_Main" targetName="PRC_Main" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOAD" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_CLEAN" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_PROGRAM" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOADFS" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_UPDATE_ALL" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
-      <config projectName="PRC_Main" targetName="DEBUG" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
-   <configurations>
+    <configurations>
       <configuration PROFILE_NAME="megaatmega2560" CONFIG_NAME="megaatmega2560" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="" />
-    <ignored path="platformio.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pline.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pline.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pline.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pline.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/motor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/motor.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:megaatmega2560" />
   <component name="FavoritesManager">
     <favorites_list name="PRC_Main" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="platformio.ini" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platformio.ini"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/sensor.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/sensor.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/pid.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/pid.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/Pline.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/Pline.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/event.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/event.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/flag.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/flag.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/motor.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/motor.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/switch.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/switch.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/Pline.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/Pline.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/sensor.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/sensor.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/motor.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/motor.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/str.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/str.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/flag.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/flag.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/pid.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/pid.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/pin.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/pin.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/event.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/event.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/switch.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/switch.h"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/main.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/str.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/str.cpp"></entry>
-      </file>
-      <file leaf-file-name="file://$PROJECT_DIR$/src/pin.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR/$src/pin.cpp"></entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="hFmNiEnx" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="252" />
@@ -132,123 +76,103 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PRC_Main" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PRC_Main" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PRC_Main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PRC_Main" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PRC_Main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
-  <component name="RunManager" selected="Application.PLATFORMIO_BUILD">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PRC_Main" CONFIG_NAME="Debug">
-      <envs />
-      <method />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.PLATFORMIO_BUILD">
+    <configuration name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration name="PLATFORMIO_CLEAN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_CLEAN" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_PROGRAM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_PROGRAM" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_REBUILD_PROJECT_INDEX" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_REBUILD_PROJECT_INDEX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_TEST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_TEST" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPDATE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPDATE_ALL" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPLOAD" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPLOADFS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPLOADFS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PRC_Main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="false" name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_CLEAN" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_CLEAN" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_TEST" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_TEST" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPLOAD" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_UPLOADFS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPLOADFS" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_PROGRAM" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_PROGRAM" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_UPDATE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPDATE_ALL" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_REBUILD_PROJECT_INDEX" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_REBUILD_PROJECT_INDEX" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
+    <list>
+      <item itemvalue="CMake Application.PLATFORMIO_UPDATE" />
+      <item itemvalue="CMake Application.PLATFORMIO_BUILD" />
+      <item itemvalue="CMake Application.PLATFORMIO_CLEAN" />
+      <item itemvalue="CMake Application.PLATFORMIO_PROGRAM" />
+      <item itemvalue="CMake Application.PLATFORMIO_REBUILD_PROJECT_INDEX" />
+      <item itemvalue="CMake Application.PLATFORMIO_TEST" />
+      <item itemvalue="CMake Application.PLATFORMIO_UPLOAD" />
+      <item itemvalue="CMake Application.PLATFORMIO_UPLOADFS" />
+    </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -257,16 +181,14 @@
       <changelist id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="" />
       <created>1435919971910</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
+      <workItem from="1581236956515" duration="889000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="181" y="23" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -276,14 +198,19 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
-    <watches-manager />
+  <component name="WindowStateProjectService">
+    <state x="680" y="1258" key="#PLATFORMIO_BUILD" timestamp="1581237292036">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="680" y="1258" key="#PLATFORMIO_BUILD/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237292036" />
+    <state x="524" y="1130" key="CommitChangelistDialog2" timestamp="1581237851890">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="524" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237851890" />
+    <state x="470" y="1169" key="SettingsEditor" timestamp="1581237726086">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="470" y="1169" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237726086" />
   </component>
   <component name="masterDetails">
     <states>

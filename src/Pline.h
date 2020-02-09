@@ -14,6 +14,6 @@ const int standardValue = 250;
 void GO(int way);
 
 //暴力的なP
-void Pline(int Sensors[9]);
+void Pline(const int (&Sensors)[9]);
 
 #endif

@@ -12,7 +12,8 @@ int FlagEvent(int flag) {
         MOVE(0, 0);
         delay(500);
         return 1;
-    } else if ((someBlack() >= 6) && (flag == 1)) {//A地点
+    }
+    else if ((someBlack() >= 6) && (flag == 1)) {//A地点
         MOVE(0, 0);
         //A地点検知をラズパイに送る
         digitalWrite(pin_RX, HIGH);
@@ -20,10 +21,10 @@ int FlagEvent(int flag) {
         delay(500);
         struct motion order;
         String str;
-        int L, R;
-        //if(!Serial){
+        // int L, R;
+        // if(!Serial){
         Serial.begin(9600);
-        //}
+        // }
         while (1) {
             //通信
             if (Serial.available() > 0) {
@@ -33,14 +34,16 @@ int FlagEvent(int flag) {
                 MOVE(order.l, order.r);
                 if (someBlack() >= 1) {
                     digitalWrite(LED[6], HIGH);
-                } else if (someBlack() == 0) {
+                }
+                else if (someBlack() == 0) {
                     digitalWrite(LED[6], LOW);
                 }
 
                 if ((order.act[0] == 'd') && (order.act[1] == 'c')) {
                     Serial.end();
                     break;
-                } else if ((order.act[0] == 'p') && (order.act[1] == 'm')) {
+                }
+                else if ((order.act[0] == 'p') && (order.act[1] == 'm')) {
                     event1();//クラッカー
                 }
 
@@ -49,13 +52,15 @@ int FlagEvent(int flag) {
         MOVE(0, 0);
         delay(500);
         return 2;
-    } else if ((someBlack() >= 6) && (flag == 2)) {//B地点
+    }
+    else if ((someBlack() >= 6) && (flag == 2)) {//B地点
         event2();
         MOVE(0, 0);
         delay(500);
         return 3;
-    } else if ((someBlack() >= 3) && (isBlack(sensor[0]) == true) && (isBlack(sensor[8]) == false) &&
-               (flag == 3)) {//C地点
+    }
+    else if ((someBlack() >= 3) && isBlack(sensor[0]) && !isBlack(sensor[8]) &&
+             (flag == 3)) {//C地点
         GO(s);
         delay(500);
         GO(f);
@@ -67,7 +72,8 @@ int FlagEvent(int flag) {
         MOVE(0, 0);
         delay(500);
         return 4;
-    } else if ((someBlack() >= 3) && (flag == 4)) {//T字路
+    }
+    else if ((someBlack() >= 3) && (flag == 4)) {//T字路
         event3();
         MOVE(0, 0);
         delay(500);
@@ -78,7 +84,8 @@ int FlagEvent(int flag) {
         MOVE(0, 0);
         delay(500);
         return 5;
-    } else if ((someBlack() >= 6) && (flag == 5)) {//C'地点
+    }
+    else if ((someBlack() >= 6) && (flag == 5)) {//C'地点
         GO(s);
         delay(500);
         GO(f);
@@ -87,7 +94,8 @@ int FlagEvent(int flag) {
         while (someBlack() >= 1) {}
         while (someBlack() <= 0) {}
         return 6;
-    } else if ((someBlack() >= 6) && (flag == 6)) {//A'地点
+    }
+    else if ((someBlack() >= 6) && (flag == 6)) {//A'地点
         event4();
         MOVE(0, 0);
         delay(500);
@@ -103,7 +111,8 @@ void FlagLight(int flag) {
     for (int i = 0; i < 7; i++) {
         if (i == flag) {
             digitalWrite(LED[i], HIGH);
-        } else {
+        }
+        else {
             digitalWrite(LED[i], LOW);
         }
     }
@@ -115,7 +124,8 @@ void FlagLight(int flag) {
         for (int i = 0; i < 7; i++) {
             if (i == fase) {
                 digitalWrite(LED[i], HIGH);
-            } else {
+            }
+            else {
                 digitalWrite(LED[i], LOW);
             }
         }
