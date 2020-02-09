@@ -24,14 +24,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="warningを削除した。(Plineの引数の型を変更、flag.cppのint L, Rをコメントアウト)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pline.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pline.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pline.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pline.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/motor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/motor.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,8 +178,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
-      <workItem from="1581236956515" duration="889000" />
+      <workItem from="1581236956515" duration="1491000" />
     </task>
+    <task id="LOCAL-00001" summary="warningを削除した。(Plineの引数の型を変更、flag.cppのint L, Rをコメントアウト)">
+      <created>1581237922320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581237922320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,15 +201,23 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="warningを削除した。(Plineの引数の型を変更、flag.cppのint L, Rをコメントアウト)" />
+    <option name="LAST_COMMIT_MESSAGE" value="warningを削除した。(Plineの引数の型を変更、flag.cppのint L, Rをコメントアウト)" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="680" y="1258" key="#PLATFORMIO_BUILD" timestamp="1581237292036">
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
     <state x="680" y="1258" key="#PLATFORMIO_BUILD/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237292036" />
-    <state x="524" y="1130" key="CommitChangelistDialog2" timestamp="1581237851890">
+    <state x="524" y="1130" key="CommitChangelistDialog2" timestamp="1581237922222">
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
-    <state x="524" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237851890" />
+    <state x="524" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237922222" />
+    <state x="842" y="1430" key="Github.ShareDialog" timestamp="1581238008458">
+      <screen x="249" y="1080" width="1440" height="900" />
+    </state>
+    <state x="842" y="1430" key="Github.ShareDialog/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581238008458" />
     <state x="470" y="1169" key="SettingsEditor" timestamp="1581237726086">
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
