@@ -266,6 +266,33 @@ PLATFORMIO_MONITOR/fast:
 	$(MAKE) -f CMakeFiles/PLATFORMIO_MONITOR.dir/build.make CMakeFiles/PLATFORMIO_MONITOR.dir/build
 .PHONY : PLATFORMIO_MONITOR/fast
 
+.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.o: .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o
+
+.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.o
+
+# target to build an object file
+.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o:
+	$(MAKE) -f CMakeFiles/PRC_Main.dir/build.make CMakeFiles/PRC_Main.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o
+.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o
+
+.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.i: .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i
+
+.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.i
+
+# target to preprocess a source file
+.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i:
+	$(MAKE) -f CMakeFiles/PRC_Main.dir/build.make CMakeFiles/PRC_Main.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i
+.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i
+
+.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.s: .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s
+
+.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.s
+
+# target to generate assembly for a file
+.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s:
+	$(MAKE) -f CMakeFiles/PRC_Main.dir/build.make CMakeFiles/PRC_Main.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s
+.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s
+
 src/Pline.o: src/Pline.cpp.o
 
 .PHONY : src/Pline.o
@@ -556,6 +583,9 @@ help:
 	@echo "... PLATFORMIO_CLEAN"
 	@echo "... PLATFORMIO_BUILD_VERBOSE"
 	@echo "... PLATFORMIO_MONITOR"
+	@echo "... .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.o"
+	@echo "... .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.i"
+	@echo "... .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.s"
 	@echo "... src/Pline.o"
 	@echo "... src/Pline.i"
 	@echo "... src/Pline.s"

@@ -11,7 +11,7 @@
 #include"pid.h"
 #include"flag.h"
 #include"switch.h"
-
+#include "DigitalPin.h"
 #define kp 10
 #define ki 0
 #define kd 0

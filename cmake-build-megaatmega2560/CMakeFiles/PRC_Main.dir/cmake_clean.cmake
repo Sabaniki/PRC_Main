@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PRC_Main.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o"
   "CMakeFiles/PRC_Main.dir/src/Pline.cpp.o"
   "CMakeFiles/PRC_Main.dir/src/event.cpp.o"
   "CMakeFiles/PRC_Main.dir/src/flag.cpp.o"

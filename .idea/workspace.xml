@@ -2,20 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="PRC_Main" targetName="DEBUG" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD_VERBOSE" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOAD" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPDATE_ALL" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_MONITOR" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_CLEAN" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOADFS" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_PROGRAM" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_DEVICE_LIST" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD_VERBOSE" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
-      <config projectName="PRC_Main" targetName="DEBUG" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD" />
       <config projectName="PRC_Main" targetName="PRC_Main" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_CLEAN" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOADFS" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_PROGRAM" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_MONITOR" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -24,9 +24,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="warningを削除した。(Plineの引数の型を変更、flag.cppのint L, Rをコメントアウト)">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/platformio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platformio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pline.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pline.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/PRC_Main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-megaatmega2560/PRC_Main.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-megaatmega2560/PRC_Main.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sensor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sensor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/str.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/str.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +69,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectId" id="1XZ1vFxvT5nks1kzPatorANmN3c" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -71,7 +86,6 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -79,59 +93,76 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.PLATFORMIO_BUILD">
-    <configuration name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PLATFORMIO_CLEAN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_CLEAN" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_BUILD_VERBOSE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_BUILD_VERBOSE" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PLATFORMIO_PROGRAM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_PROGRAM" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_CLEAN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_CLEAN" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PLATFORMIO_REBUILD_PROJECT_INDEX" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_REBUILD_PROJECT_INDEX" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_DEVICE_LIST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_DEVICE_LIST" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PLATFORMIO_TEST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_TEST" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_MONITOR" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_MONITOR" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PLATFORMIO_UPDATE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPDATE_ALL" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_PROGRAM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_PROGRAM" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PLATFORMIO_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPLOAD" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_REBUILD_PROJECT_INDEX" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_REBUILD_PROJECT_INDEX" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PLATFORMIO_UPLOADFS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPLOADFS" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_TEST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_TEST" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PRC_Main" CONFIG_NAME="Debug">
+    <configuration name="PLATFORMIO_UPDATE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPDATE_ALL" CONFIG_NAME="megaatmega2560">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPLOAD" CONFIG_NAME="megaatmega2560">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPLOADFS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PLATFORMIO_UPLOADFS" CONFIG_NAME="megaatmega2560">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_Main" TARGET_NAME="PRC_Main" CONFIG_NAME="megaatmega2560">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -148,7 +179,10 @@
     <list>
       <item itemvalue="CMake Application.PLATFORMIO_UPDATE" />
       <item itemvalue="CMake Application.PLATFORMIO_BUILD" />
+      <item itemvalue="CMake Application.PLATFORMIO_BUILD_VERBOSE" />
       <item itemvalue="CMake Application.PLATFORMIO_CLEAN" />
+      <item itemvalue="CMake Application.PLATFORMIO_DEVICE_LIST" />
+      <item itemvalue="CMake Application.PLATFORMIO_MONITOR" />
       <item itemvalue="CMake Application.PLATFORMIO_PROGRAM" />
       <item itemvalue="CMake Application.PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <item itemvalue="CMake Application.PLATFORMIO_TEST" />
@@ -178,16 +212,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
-      <workItem from="1581236956515" duration="1491000" />
+      <workItem from="1581239032758" duration="62000" />
     </task>
-    <task id="LOCAL-00001" summary="warningを削除した。(Plineの引数の型を変更、flag.cppのint L, Rをコメントアウト)">
-      <created>1581237922320</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1581237922320</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,28 +226,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="warningを削除した。(Plineの引数の型を変更、flag.cppのint L, Rをコメントアウト)" />
-    <option name="LAST_COMMIT_MESSAGE" value="warningを削除した。(Plineの引数の型を変更、flag.cppのint L, Rをコメントアウト)" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="680" y="1258" key="#PLATFORMIO_BUILD" timestamp="1581237292036">
-      <screen x="249" y="1080" width="1440" height="900" />
-    </state>
-    <state x="680" y="1258" key="#PLATFORMIO_BUILD/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237292036" />
-    <state x="524" y="1130" key="CommitChangelistDialog2" timestamp="1581237922222">
-      <screen x="249" y="1080" width="1440" height="900" />
-    </state>
-    <state x="524" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237922222" />
-    <state x="842" y="1430" key="Github.ShareDialog" timestamp="1581238008458">
-      <screen x="249" y="1080" width="1440" height="900" />
-    </state>
-    <state x="842" y="1430" key="Github.ShareDialog/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581238008458" />
-    <state x="470" y="1169" key="SettingsEditor" timestamp="1581237726086">
-      <screen x="249" y="1080" width="1440" height="900" />
-    </state>
-    <state x="470" y="1169" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581237726086" />
   </component>
   <component name="masterDetails">
     <states>

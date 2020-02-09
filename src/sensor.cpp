@@ -16,18 +16,14 @@ void ValueUpdate(int *SenL3,int *SenL2,int *SenL1,int *SenR1,int *SenR2,int *Sen
 
 //
 bool isBlack(int pin) {
-    if (digitalRead(pin) == 1) {
-        //センサは黒で1を返す(確認済み)
-        return true;
-    }
-    return false;
+    return digitalRead(pin) == 1;
 }
 
 int someBlack() {
     int sum = 0;
 
-    for (int i = 0; i < 9; i++) {
-        if (digitalRead(sensor[i]) == 1) {
+    for (int i : sensor) {
+        if (digitalRead(i) == 1) {
             sum++;
         }
     }

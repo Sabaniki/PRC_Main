@@ -36,6 +36,7 @@
 				<Compiler>
 					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/include"/>
 					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/src"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/.pio/libdeps/megaatmega2560/DigitalPin"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/cores/arduino"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/variants/mega"/>
 					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
@@ -71,6 +72,7 @@
 				<Compiler>
 					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/include"/>
 					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/src"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/.pio/libdeps/megaatmega2560/DigitalPin"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/cores/arduino"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/variants/mega"/>
 					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
@@ -218,6 +220,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/.pio/libdeps/megaatmega2560/DigitalPin/.pio/.piopkgmanager.json">
+			<Option target="PRC_Main"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp">
+			<Option target="PRC_Main"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.h">
+			<Option target="PRC_Main"/>
+		</Unit>
 		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_Main/src/Pline.cpp">
 			<Option target="PRC_Main"/>
 		</Unit>
