@@ -38,6 +38,8 @@ void setup() {
 
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wmissing-noreturn"
 void loop() {
     // for(int i = 0;i < 9;i++){
     //   Serial.print(isBlack(sensor[i]));
@@ -62,7 +64,6 @@ void loop() {
     timerSignalOut.write(HIGH);
     delay(50);
     while (true) {
-
         //flagの更新とflagごとのイベント
         flag = FlagEvent(flag, &timerSignalIn);
 
@@ -73,3 +74,4 @@ void loop() {
         Pline(sensor);//*/
     }
 }
+#pragma clang diagnostic pop
