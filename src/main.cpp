@@ -58,11 +58,11 @@ void loop() {
     // Serial.println("停止");
     // MOVE(0,0);
     // delay(500);
-    auto timerSignalOut = DigitalPin(pin_timerSignalOut, OUTPUT);
+    // auto timerSignalOut = DigitalPin(pin_timerSignalOut, OUTPUT);
     auto timerSignalIn = DigitalPin(pin_timerSignalIn, INPUT);
-    delay(50);
-    timerSignalOut.write(HIGH);
-    delay(50);
+//    delay(50);
+//    timerSignalOut.write(HIGH);
+//    delay(50);
     while (true) {
         //flagの更新とflagごとのイベント
         flag = FlagEvent(flag, &timerSignalIn);

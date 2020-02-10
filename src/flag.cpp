@@ -11,6 +11,10 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn) {
     if ((someBlack() >= 6) && (flag == 0)) {//スタート地点通過
         MOVE(0, 0);
         delay(500);
+        auto timerSignalOut = DigitalPin(pin_timerSignalOut, OUTPUT);
+        delay(50);
+        timerSignalOut.write(HIGH);
+        delay(50);
         return 1;
     }
     else if ((someBlack() >= 6) && (flag == 1)) {//A地点
@@ -19,7 +23,7 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn) {
         digitalWrite(pin_RX, HIGH);
         digitalWrite(pin_TX, HIGH);
         delay(500);
-        struct motion order;
+        struct motion order{};
         String str;
         // int L, R;
         // if(!Serial){
@@ -64,10 +68,10 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn) {
         GO(s);
         delay(500);
         GO(f);
-        delay(200);
-        MOVE(-100, 100);
+        delay(200); // 適当に増やす
+        MOVE(-200, 200);
         while (someBlack() >= 1) {}
-        delay(10);
+        delay(300);
         while (someBlack() <= 0) {}
         MOVE(0, 0);
         delay(500);
