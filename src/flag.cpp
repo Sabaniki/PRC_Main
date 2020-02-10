@@ -15,6 +15,8 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn) {
         delay(50);
         timerSignalOut.write(HIGH);
         delay(50);
+        auto trainMotor = DigitalPin(pin_trainMotor, OUTPUT);
+        trainMotor.write(HIGH);
         return 1;
     }
     else if ((someBlack() >= 6) && (flag == 1)) {//A地点
@@ -60,7 +62,10 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn) {
     else if ((someBlack() >= 6) && (flag == 2)) {//B地点
         event2();
         MOVE(0, 0);
-        delay(500);
+        auto trainMotor = DigitalPin(pin_trainMotor, OUTPUT);
+        trainMotor.write(LOW);
+        delay(5000);
+        trainMotor.write(HIGH);
         return 3;
     }
     else if ((someBlack() >= 3) && isBlack(sensor[0]) && !isBlack(sensor[8]) &&
@@ -101,9 +106,12 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn) {
     }
     else if ((someBlack() >= 6) && (flag == 6)) {//A'地点
         event4();
+        auto trainMotor = DigitalPin(pin_trainMotor, OUTPUT);
         while (!timerSignalIn->read()) {    // 信号が来るまで時間を潰す
+            trainMotor.write(LOW);
             MOVE(0, 0);
         }
+        trainMotor.write(HIGH);
         return 7;
     }
 
