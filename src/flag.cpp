@@ -21,8 +21,8 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
     else if ((someBlack() >= 6) && (flag == 1)) {//A地点
         MOVE(0, 0);
         //A地点検知をラズパイに送る
-        digitalWrite(pin_RX, HIGH);
-        digitalWrite(pin_TX, HIGH);
+        digitalWrite(pin_signalForA, HIGH);
+        // digitalWrite(pin_signalForB, HIGH);
         delay(500);
         struct motion order{};
         String str;
@@ -59,11 +59,14 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         return 2;
     }
     else if ((someBlack() >= 6) && (flag == 2)) {//B地点
+        delay(50);
+        digitalWrite(pin_signalForB, HIGH);
+        delay(50);
         event2();
         MOVE(0, 0);
         auto trainMotor = DigitalPin(pin_trainMotor, OUTPUT);
         trainMotor.write(LOW);
-        delay(5000);
+        delay(12500);
         trainMotor.write(HIGH);
         return 3;
     }

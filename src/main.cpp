@@ -27,8 +27,8 @@ void setup() {
     //while(digitalRead(pin_SW0) == HIGH){delay(1);}
     //Serial.print(flag);
     //Serial.println("into while");
-    digitalWrite(pin_RX, LOW);
-    digitalWrite(pin_TX, LOW);
+    digitalWrite(pin_signalForA, LOW);
+    digitalWrite(pin_signalForB, LOW);
     while (flag == -1) {
         flag = SWtoFL();
         //Serial.println(flag);

@@ -22,8 +22,8 @@ const int pin_motorR1 = 11;
 
 const int pin_trainMotor = 7;
 
-const int pin_RX = 51;
-const int pin_TX = 53;
+const int pin_signalForA = 51;
+const int pin_signalForB = 53;
 
 
 const int pin_timerSignalIn = 5;

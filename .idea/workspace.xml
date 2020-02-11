@@ -24,10 +24,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="とりあえず動きます">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="ピンの名前変更">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flag.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/pin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pin.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/pin.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +187,7 @@
       <updated>1435919971910</updated>
       <workItem from="1581239032758" duration="850000" />
       <workItem from="1581239962361" duration="1759000" />
-      <workItem from="1581241773892" duration="8300000" />
+      <workItem from="1581241773892" duration="9253000" />
     </task>
     <task id="LOCAL-00001" summary="add DigitalPin.cpp, DigitalPin.h">
       <created>1581239141479</created>
@@ -222,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581332210795</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="timerSignalOutの切り出し">
+      <created>1581380719442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581380719442</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +251,10 @@
     <MESSAGE value="Warningを抑制" />
     <MESSAGE value="とりあえずタイマーも動きます" />
     <MESSAGE value="とりあえず動きます" />
-    <option name="LAST_COMMIT_MESSAGE" value="とりあえず動きます" />
+    <MESSAGE value="timerSignalOutの切り出し" />
+    <MESSAGE value="ピンの名前返校" />
+    <MESSAGE value="ピンの名前変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="ピンの名前変更" />
   </component>
   <component name="WindowStateProjectService">
     <state x="569" y="1195" key="#Inspections" timestamp="1581241636848">
@@ -253,19 +265,19 @@
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
     <state x="775" y="1253" key="#com.intellij.ide.util.MemberChooser/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240685091" />
-    <state x="265" y="50" key="CommitChangelistDialog2" timestamp="1581332210680">
+    <state x="265" y="50" key="CommitChangelistDialog2" timestamp="1581383948301">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="265" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581332210680" />
+    <state x="265" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581383948301" />
     <state x="514" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241708685" />
     <state x="470" y="1169" key="SettingsEditor" timestamp="1581240096035">
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
     <state x="470" y="1169" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240096035" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581332214174">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581380723765">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581332214174" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581380723765" />
     <state x="569" y="1270" key="Vcs.Push.Dialog.v2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241710578" />
     <state x="629" y="1362" key="com.intellij.ide.util.TipDialog" timestamp="1581239968984">
       <screen x="249" y="1080" width="1440" height="900" />
