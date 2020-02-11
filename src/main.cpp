@@ -60,12 +60,13 @@ void loop() {
     // delay(500);
     // auto timerSignalOut = DigitalPin(pin_timerSignalOut, OUTPUT);
     auto timerSignalIn = DigitalPin(pin_timerSignalIn, INPUT);
+    auto timerSignalOut = DigitalPin(pin_timerSignalOut, OUTPUT);
 //    delay(50);
 //    timerSignalOut.write(HIGH);
 //    delay(50);
     while (true) {
         //flagの更新とflagごとのイベント
-        flag = FlagEvent(flag, &timerSignalIn);
+        flag = FlagEvent(flag, &timerSignalIn, &timerSignalOut);
 
         //flagの値によって光らせるLEDを変える
         FlagLight(flag);

@@ -7,13 +7,12 @@
 #include<Arduino.h>
 #include"str.h"
 
-int FlagEvent(int flag, DigitalPin *timerSignalIn) {
+int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
     if ((someBlack() >= 6) && (flag == 0)) {//スタート地点通過
         MOVE(0, 0);
         delay(500);
-        auto timerSignalOut = DigitalPin(pin_timerSignalOut, OUTPUT);
         delay(50);
-        timerSignalOut.write(HIGH);
+        timerSignalOut->write(HIGH);
         delay(50);
         auto trainMotor = DigitalPin(pin_trainMotor, OUTPUT);
         trainMotor.write(HIGH);
