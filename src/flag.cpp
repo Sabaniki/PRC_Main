@@ -59,11 +59,11 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         return 2;
     }
     else if ((someBlack() >= 6) && (flag == 2)) {//B地点
-        delay(50);
-        digitalWrite(pin_signalForB, HIGH);
-        delay(50);
         event2();
         MOVE(0, 0);
+        delay(500);
+        digitalWrite(pin_signalForB, HIGH);
+        delay(50);
         auto trainMotor = DigitalPin(pin_trainMotor, OUTPUT);
         trainMotor.write(LOW);
         delay(12500);
@@ -76,9 +76,9 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         delay(500);
         GO(f);
         delay(200); // 適当に増やす
-        MOVE(-200, 200);
+        MOVE(-150, 150);
         while (someBlack() >= 1) {}
-        delay(300);
+        delay(100);
         while (someBlack() <= 0) {}
         MOVE(0, 0);
         delay(500);
@@ -88,9 +88,10 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         event3();
         MOVE(0, 0);
         delay(500);
-        MOVE(255, 255);
-        delay(300);
-        MOVE(-100, 100);
+        MOVE(-255, -255);
+        delay(1000);
+        MOVE(-250, 250);
+        while (someBlack() >= 1) {}
         while (someBlack() <= 0) {}
         MOVE(0, 0);
         delay(500);
@@ -100,19 +101,19 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         GO(s);
         delay(500);
         GO(f);
-        delay(500);
-        MOVE(-255, 255);
+        delay(200);
+        MOVE(-250, 250);
         while (someBlack() >= 1) {}
         while (someBlack() <= 0) {}
         return 6;
     }
     else if ((someBlack() >= 6) && (flag == 6)) {//A'地点
-        event4();
         auto trainMotor = DigitalPin(pin_trainMotor, OUTPUT);
         while (!timerSignalIn->read()) {    // 信号が来るまで時間を潰す
             trainMotor.write(LOW);
             MOVE(0, 0);
         }
+        event4();
         trainMotor.write(HIGH);
         return 7;
     }

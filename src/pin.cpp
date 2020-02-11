@@ -12,6 +12,9 @@ void pinsetup() {
     pinMode(pin_signalForB, OUTPUT);
     digitalWrite(pin_signalForA, LOW);
     digitalWrite(pin_signalForB, LOW);
+
+    digitalWrite(pin_crackerMotor1, LOW);
+    digitalWrite(pin_crackerMotor2, LOW);
     for (int i = 0; i < 7; i++) {
         pinMode(LED[i], OUTPUT);
         pinMode(SW[i], INPUT_PULLUP);

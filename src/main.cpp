@@ -70,7 +70,7 @@ void loop() {
 
         //flagの値によって光らせるLEDを変える
         FlagLight(flag);
-
+        // digitalWrite(pin_signalForB, LOW);
         //ON/OFFライントレース
         Pline(sensor);//*/
     }

@@ -20,6 +20,9 @@ const int pin_motorL1 = 13;
 const int pin_motorR2 = 10;
 const int pin_motorR1 = 11;
 
+const int pin_crackerMotor1 = 8;
+const int pin_crackerMotor2 = 9;
+
 const int pin_trainMotor = 7;
 
 const int pin_signalForA = 51;
