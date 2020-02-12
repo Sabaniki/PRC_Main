@@ -78,7 +78,7 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         GO(s);
         delay(500);
         GO(f);
-        delay(250); // 適当に増やす
+        delay(200); // 適当に増やす
         MOVE(-150, 150);
         while (someBlack() >= 1) {}
         delay(100);
@@ -117,6 +117,7 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
             trainMotor.write(LOW);
             MOVE(0, 0);
         }
+        delay(200);
         event4();
         trainMotor.write(HIGH);
         return 7;

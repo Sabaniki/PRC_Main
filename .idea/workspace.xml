@@ -24,7 +24,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="LEDチカチカできたかもしれん">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="LED点灯は完成。Cに向かうトの字部分で誤検知する不具合あり。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
     </list>
@@ -184,7 +184,7 @@
       <updated>1435919971910</updated>
       <workItem from="1581239032758" duration="850000" />
       <workItem from="1581239962361" duration="1759000" />
-      <workItem from="1581241773892" duration="21899000" />
+      <workItem from="1581241773892" duration="22561000" />
     </task>
     <task id="LOCAL-00001" summary="add DigitalPin.cpp, DigitalPin.h">
       <created>1581239141479</created>
@@ -249,11 +249,29 @@
       <option name="project" value="LOCAL" />
       <updated>1581490430528</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LED点灯は完成。Cに向かうトの字部分で誤検知する不具合あり。">
+      <created>1581497040359</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581497040359</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -274,7 +292,8 @@
     <MESSAGE value="ピンの名前変更" />
     <MESSAGE value="とりあえず駅メロのバグは直るがC地点が不安定" />
     <MESSAGE value="LEDチカチカできたかもしれん" />
-    <option name="LAST_COMMIT_MESSAGE" value="LEDチカチカできたかもしれん" />
+    <MESSAGE value="LED点灯は完成。Cに向かうトの字部分で誤検知する不具合あり。" />
+    <option name="LAST_COMMIT_MESSAGE" value="LED点灯は完成。Cに向かうトの字部分で誤検知する不具合あり。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="569" y="1195" key="#Inspections" timestamp="1581241636848">
@@ -285,11 +304,15 @@
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
     <state x="775" y="1253" key="#com.intellij.ide.util.MemberChooser/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240685091" />
-    <state x="265" y="50" key="CommitChangelistDialog2" timestamp="1581490430413">
+    <state x="265" y="50" key="CommitChangelistDialog2" timestamp="1581497466939">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="265" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581490430413" />
+    <state x="265" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581497466939" />
     <state x="514" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241708685" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581497353569">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581497353569" />
     <state x="470" y="1169" key="SettingsEditor" timestamp="1581240096035">
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
