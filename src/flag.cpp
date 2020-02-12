@@ -78,16 +78,16 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         GO(s);
         delay(500);
         GO(f);
-        delay(150); // 適当に増やす
+        delay(250); // 適当に増やす
         MOVE(-150, 150);
         while (someBlack() >= 1) {}
         delay(100);
-        while (!isBlack(sensor[4])) {}
+        while (!isBlack(sensor[4]) && !isBlack(sensor[3])) {}
         MOVE(0, 0);
         delay(500);
         return 4;
     }
-    else if ((someBlack() >= 4) && (flag == 4)) {//T字路
+    else if ((someBlack() >= 4) && (isBlack(sensor[3]) || isBlack(sensor[5])) && (flag == 4)) {//T字路
         event3();
         MOVE(0, 0);
         delay(12000);
