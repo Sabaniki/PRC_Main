@@ -75,6 +75,8 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         GO(f);
         delay(200); // 適当に増やす
         MOVE(-150, 150);
+        delay(333);
+        MOVE(-150, 150);
         while (someBlack() >= 1) {}
         delay(100);
         while (!isBlack(sensor[4]) && !isBlack(sensor[3])) {}
@@ -85,7 +87,7 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
     else if ((someBlack() >= 4) && (isBlack(sensor[3]) || isBlack(sensor[5])) && (flag == 4)) {//T字路
         event3();
         MOVE(0, 0);
-        delay(12000);
+        delay(8000);
         delay(500);
         MOVE(-255, -255);
         delay(1000);
@@ -100,13 +102,13 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         GO(s);
         delay(500);
         GO(f);
-        delay(200);
+        delay(100);
         MOVE(-250, 250);
         while (someBlack() >= 1) {}
         while (someBlack() <= 0) {}
         return 6;
     }
-    else if ((someBlack() >= 6) && (flag == 6)) {//A'地点
+    else if ((someBlack() >= 5) && (flag == 6)) {//A'地点
         while (!timerSignalIn->read()) {    // 信号が来るまで時間を潰す
             MOVE(0, 0);
         }
