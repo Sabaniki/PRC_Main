@@ -8,6 +8,9 @@ void pinsetup() {
     pinMode(pin_motorL1, OUTPUT);
     pinMode(pin_motorL2, OUTPUT);
 
+    pinMode(pin_trainMotor, OUTPUT);
+    digitalWrite(pin_trainMotor, LOW);
+
     pinMode(pin_signalForA, OUTPUT);
     pinMode(pin_signalForB, OUTPUT);
     digitalWrite(pin_signalForA, LOW);

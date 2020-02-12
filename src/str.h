@@ -12,6 +12,6 @@ struct motion {
 bool isNum(char ch);
 
 //string型からモータの出力とかの動作を取得する用の関数。
-struct motion getfromstr(String str);
+struct motion getFromStr(String str);
 
 #endif

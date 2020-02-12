@@ -12,29 +12,29 @@ bool isNum(char ch) {
     return false;
 }
 
-struct motion getfromstr(String str) {
+struct motion getFromStr(String str) {
     int num = 0;
-    bool isMinas = false;
+    bool isMinus = false;
     struct motion answer;
 
     num = str.indexOf("L:") + 2;
     if ((str[num] - 48) == '-') {
-        isMinas = true;
+        isMinus = true;
         num++;
     }//L:-〇〇のときに出てきた値に-をかける。
     answer.l = (str[num] - 48) * 100 + (str[num + 1] - 48) * 10 + (str[num + 2] - 48);
-    if (isMinas) {
+    if (isMinus) {
         answer.l = answer.l * -1;
-        isMinas = false;
+        isMinus = false;
     }
 
     num = str.indexOf("R:") + 2;
     if ((str[num] - 48) == '-') {
-        isMinas = true;
+        isMinus = true;
         num++;
     }//R:-〇〇のときに出てきた値に-をかける。
     answer.r = (str[num] - 48) * 100 + (str[num + 1] - 48) * 10 + (str[num + 2] - 48);
-    if (isMinas) {
+    if (isMinus) {
         answer.r = answer.r * -1;
     }
 

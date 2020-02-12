@@ -5,16 +5,16 @@
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOAD" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD_VERBOSE" />
-      <config projectName="PRC_Main" targetName="DEBUG" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPDATE_ALL" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_DEVICE_LIST" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_MONITOR" />
       <config projectName="PRC_Main" targetName="PLATFORMIO" />
       <config projectName="PRC_Main" targetName="PRC_Main" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_CLEAN" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOADFS" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
+      <config projectName="PRC_Main" targetName="DEBUG" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_PROGRAM" />
     </generated>
   </component>
@@ -24,9 +24,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="LED点灯は完成。Cに向かうトの字部分で誤検知する不具合あり。">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="C地点での不具合は完治。原因はハードでした。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/motor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/motor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/pin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/str.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/str.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +187,8 @@
       <updated>1435919971910</updated>
       <workItem from="1581239032758" duration="850000" />
       <workItem from="1581239962361" duration="1759000" />
-      <workItem from="1581241773892" duration="22561000" />
+      <workItem from="1581241773892" duration="23691000" />
+      <workItem from="1581499655986" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="add DigitalPin.cpp, DigitalPin.h">
       <created>1581239141479</created>
@@ -256,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581497040359</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="C地点での不具合は完治。原因はハードでした。">
+      <created>1581497851419</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581497851419</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +278,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -293,7 +306,8 @@
     <MESSAGE value="とりあえず駅メロのバグは直るがC地点が不安定" />
     <MESSAGE value="LEDチカチカできたかもしれん" />
     <MESSAGE value="LED点灯は完成。Cに向かうトの字部分で誤検知する不具合あり。" />
-    <option name="LAST_COMMIT_MESSAGE" value="LED点灯は完成。Cに向かうトの字部分で誤検知する不具合あり。" />
+    <MESSAGE value="C地点での不具合は完治。原因はハードでした。" />
+    <option name="LAST_COMMIT_MESSAGE" value="C地点での不具合は完治。原因はハードでした。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="569" y="1195" key="#Inspections" timestamp="1581241636848">
@@ -304,10 +318,10 @@
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
     <state x="775" y="1253" key="#com.intellij.ide.util.MemberChooser/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240685091" />
-    <state x="265" y="50" key="CommitChangelistDialog2" timestamp="1581497466939">
+    <state x="265" y="50" key="CommitChangelistDialog2" timestamp="1581497851272">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="265" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581497466939" />
+    <state x="265" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581497851272" />
     <state x="514" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241708685" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581497353569">
       <screen x="0" y="0" width="1440" height="900" />
