@@ -4,8 +4,8 @@
 #include"motor.h"
 #include"sensor.h"
 
-void event1() {
-
+void event1(DigitalPin *led, bool flag) {
+    led->write(flag);
 }
 
 void event2() {

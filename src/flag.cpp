@@ -30,6 +30,8 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         // if(!Serial){
         Serial.begin(9600);
         // }
+        auto led = DigitalPin(2, OUTPUT);
+        bool flag = false;
         while (true) {
             //通信
             if (Serial.available() > 0) {
@@ -48,8 +50,9 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
                     Serial.end();
                     break;
                 }
-                else if ((order.act[0] == 'p') && (order.act[1] == 'm')) {
-                    event1();//クラッカー
+                else if ((order.act[0] == 'l') && (order.act[1] == 'e')) {
+                    event1(&led, flag); // LED点灯
+                    flag =! flag;
                 }
 
             }
@@ -75,18 +78,19 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         GO(s);
         delay(500);
         GO(f);
-        delay(200); // 適当に増やす
+        delay(150); // 適当に増やす
         MOVE(-150, 150);
         while (someBlack() >= 1) {}
         delay(100);
-        while (someBlack() <= 0) {}
+        while (!isBlack(sensor[4])) {}
         MOVE(0, 0);
         delay(500);
         return 4;
     }
-    else if ((someBlack() >= 3) && (flag == 4)) {//T字路
+    else if ((someBlack() >= 4) && (flag == 4)) {//T字路
         event3();
         MOVE(0, 0);
+        delay(12000);
         delay(500);
         MOVE(-255, -255);
         delay(1000);
@@ -94,7 +98,7 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         while (someBlack() >= 1) {}
         while (someBlack() <= 0) {}
         MOVE(0, 0);
-        delay(500);
+        delay(100);
         return 5;
     }
     else if ((someBlack() >= 6) && (flag == 5)) {//C'地点

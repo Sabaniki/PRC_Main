@@ -35,7 +35,7 @@ struct motion getfromstr(String str) {
     }//R:-〇〇のときに出てきた値に-をかける。
     answer.r = (str[num] - 48) * 100 + (str[num + 1] - 48) * 10 + (str[num + 2] - 48);
     if (isMinas) {
-        answer.l = answer.l * -1;
+        answer.r = answer.r * -1;
     }
 
     num = str.indexOf("E:") + 2;
