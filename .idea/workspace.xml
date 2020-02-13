@@ -5,16 +5,16 @@
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOAD" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD_VERBOSE" />
+      <config projectName="PRC_Main" targetName="DEBUG" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPDATE_ALL" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_DEVICE_LIST" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_BUILD" />
-      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_MONITOR" />
       <config projectName="PRC_Main" targetName="PLATFORMIO" />
       <config projectName="PRC_Main" targetName="PRC_Main" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_CLEAN" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_UPLOADFS" />
-      <config projectName="PRC_Main" targetName="DEBUG" />
+      <config projectName="PRC_Main" targetName="PLATFORMIO_TEST" />
       <config projectName="PRC_Main" targetName="PLATFORMIO_PROGRAM" />
     </generated>
   </component>
@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="タイポの修正">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.PLATFORMIO_UPDATE" />
       <item itemvalue="CMake Application.PLATFORMIO_BUILD" />
       <item itemvalue="CMake Application.PLATFORMIO_BUILD_VERBOSE" />
       <item itemvalue="CMake Application.PLATFORMIO_CLEAN" />
@@ -156,8 +154,9 @@
       <item itemvalue="CMake Application.PLATFORMIO_PROGRAM" />
       <item itemvalue="CMake Application.PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <item itemvalue="CMake Application.PLATFORMIO_TEST" />
-      <item itemvalue="CMake Application.PLATFORMIO_UPLOAD" />
+      <item itemvalue="CMake Application.PLATFORMIO_UPDATE" />
       <item itemvalue="CMake Application.PLATFORMIO_UPLOADFS" />
+      <item itemvalue="CMake Application.PLATFORMIO_UPLOAD" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -186,6 +185,7 @@
       <workItem from="1581239962361" duration="1759000" />
       <workItem from="1581241773892" duration="23691000" />
       <workItem from="1581499655986" duration="2250000" />
+      <workItem from="1581582617810" duration="430000" />
     </task>
     <task id="LOCAL-00001" summary="add DigitalPin.cpp, DigitalPin.h">
       <created>1581239141479</created>
@@ -341,9 +341,10 @@
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581499853302" />
     <state x="569" y="1270" key="Vcs.Push.Dialog.v2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241710578" />
-    <state x="629" y="1362" key="com.intellij.ide.util.TipDialog" timestamp="1581239968984">
-      <screen x="249" y="1080" width="1440" height="900" />
+    <state x="380" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581582618656">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="380" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581582618656" />
     <state x="629" y="1362" key="com.intellij.ide.util.TipDialog/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581239968984" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581385429727">
       <screen x="0" y="0" width="1440" height="900" />
