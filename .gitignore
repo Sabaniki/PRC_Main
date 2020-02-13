@@ -1,6 +1,6 @@
-.pio
+/.pio
 CMakeListsPrivate.txt
 /cmake-build-megaatmega2560
 .travis.yml
 CMakeLists.txt
-.idea/
+/.idea/
