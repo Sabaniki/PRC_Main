@@ -65,7 +65,7 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         delay(500);
         digitalWrite(pin_signalForB, HIGH);
         delay(50);
-        delay(12500);
+        delay(11500);
         return 3;
     }
     else if ((someBlack() >= 3) && isBlack(sensor[0]) && !isBlack(sensor[8]) &&
