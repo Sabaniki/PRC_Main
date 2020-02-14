@@ -26,6 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="タイポの修正">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +147,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="CMake Application.PLATFORMIO_UPDATE" />
       <item itemvalue="CMake Application.PLATFORMIO_BUILD" />
       <item itemvalue="CMake Application.PLATFORMIO_BUILD_VERBOSE" />
       <item itemvalue="CMake Application.PLATFORMIO_CLEAN" />
@@ -154,9 +156,8 @@
       <item itemvalue="CMake Application.PLATFORMIO_PROGRAM" />
       <item itemvalue="CMake Application.PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <item itemvalue="CMake Application.PLATFORMIO_TEST" />
-      <item itemvalue="CMake Application.PLATFORMIO_UPDATE" />
-      <item itemvalue="CMake Application.PLATFORMIO_UPLOADFS" />
       <item itemvalue="CMake Application.PLATFORMIO_UPLOAD" />
+      <item itemvalue="CMake Application.PLATFORMIO_UPLOADFS" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -185,7 +186,7 @@
       <workItem from="1581239962361" duration="1759000" />
       <workItem from="1581241773892" duration="23691000" />
       <workItem from="1581499655986" duration="2250000" />
-      <workItem from="1581582617810" duration="430000" />
+      <workItem from="1581582617810" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="add DigitalPin.cpp, DigitalPin.h">
       <created>1581239141479</created>

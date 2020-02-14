@@ -112,6 +112,7 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         while (!timerSignalIn->read()) {    // 信号が来るまで時間を潰す
             MOVE(0, 0);
         }
+        MOVE(0, 0);
         delay(200);
         event4();
         return 7;
