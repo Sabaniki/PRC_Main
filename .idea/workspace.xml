@@ -24,7 +24,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="タイポの修正">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="A'の待ち時間を追加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/flag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/flag.cpp" afterDir="false" />
     </list>
@@ -186,7 +186,7 @@
       <workItem from="1581239962361" duration="1759000" />
       <workItem from="1581241773892" duration="23691000" />
       <workItem from="1581499655986" duration="2250000" />
-      <workItem from="1581582617810" duration="3536000" />
+      <workItem from="1581582617810" duration="6010000" />
     </task>
     <task id="LOCAL-00001" summary="add DigitalPin.cpp, DigitalPin.h">
       <created>1581239141479</created>
@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581499849077</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="A'の待ち時間を追加">
+      <created>1581662329752</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581662329752</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +320,8 @@
     <MESSAGE value="LED点灯は完成。Cに向かうトの字部分で誤検知する不具合あり。" />
     <MESSAGE value="C地点での不具合は完治。原因はハードでした。" />
     <MESSAGE value="タイポの修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="タイポの修正" />
+    <MESSAGE value="A'の待ち時間を追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="A'の待ち時間を追加" />
   </component>
   <component name="WindowStateProjectService">
     <state x="569" y="1195" key="#Inspections" timestamp="1581241636848">
@@ -324,10 +332,10 @@
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
     <state x="775" y="1253" key="#com.intellij.ide.util.MemberChooser/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240685091" />
-    <state x="265" y="50" key="CommitChangelistDialog2" timestamp="1581499848787">
+    <state x="265" y="50" key="CommitChangelistDialog2" timestamp="1581662329662">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="265" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581499848787" />
+    <state x="265" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581662329662" />
     <state x="514" y="1130" key="CommitChangelistDialog2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241708685" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581497353569">
       <screen x="0" y="0" width="1440" height="900" />
@@ -337,10 +345,10 @@
       <screen x="249" y="1080" width="1440" height="900" />
     </state>
     <state x="470" y="1169" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581240096035" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581499853302">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581662332215">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581499853302" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581662332215" />
     <state x="569" y="1270" key="Vcs.Push.Dialog.v2/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581241710578" />
     <state x="380" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581582618656">
       <screen x="0" y="0" width="1440" height="900" />

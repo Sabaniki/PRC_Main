@@ -90,7 +90,9 @@ int FlagEvent(int flag, DigitalPin *timerSignalIn, DigitalPin *timerSignalOut) {
         delay(8000);
         delay(500);
         MOVE(-255, -255);
-        delay(1000);
+        delay(1500);
+        MOVE(-250, 250);
+        delay(200);
         MOVE(-250, 250);
         while (someBlack() >= 1) {}
         while (someBlack() <= 0) {}
